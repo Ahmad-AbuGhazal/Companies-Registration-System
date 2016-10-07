@@ -1,5 +1,5 @@
 package edu.mum.eroc.repository;
 
-public interface IRocRepository {
+public interface IRocRepository  {
 	String checkRocNumber(String rocNumber);
 }
