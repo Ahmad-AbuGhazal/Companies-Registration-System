@@ -34,7 +34,9 @@
 		</div>
 
 		<div class="row">
-		
+		<div class="alert alert-success">
+        <strong>Success!</strong> Congratulation, you registered Successfully, click <a href="./">here</a> to Home
+     </div>
 		</div>
 
 		<div class="footer">

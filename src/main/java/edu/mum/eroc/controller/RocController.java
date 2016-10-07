@@ -19,7 +19,7 @@ public class RocController {
 	IRocService rocService;
 	@ResponseBody
 	@ResponseStatus(value=HttpStatus.OK)
-	@RequestMapping(value="/roc/api/numbers/{rocnumber}", method=RequestMethod.GET)
+	@RequestMapping(value="/api/numbers/{rocnumber}", method=RequestMethod.GET)
 	public String rocCheckNumber(@PathVariable("rocnumber") String rocNumber){
 		String status=DEFULT_STATUS;
 		if(rocNumber!=null&&rocNumber.length()>0)
